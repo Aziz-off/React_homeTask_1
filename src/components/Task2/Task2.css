@@ -1,0 +1,61 @@
+.cards {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  width: 400px;
+}
+
+.card span {
+  width: 90%;
+  margin: 10px;
+}
+.card h3 {
+  text-transform: uppercase;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  background-color: orange;
+  border: none;
+  margin-top: 30px;
+}
+.btn:hover {
+  background-color: rgb(140, 93, 5);
+  cursor: pointer;
+}
+.first {
+  text-align: center;
+}
+.second {
+  text-align: center;
+}
+.second h2 {
+  margin-top: 100px;
+}
+.section {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.block img {
+  width: 400px;
+  height: 500px;
+}
+
+.block p {
+  padding: 20px;
+  text-align: justify;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+}
